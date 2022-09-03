@@ -5,7 +5,8 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@mui/material/styles';
+import {makeStyles} from '@material-ui/core/styles';
+
 
   const useStyles = makeStyles(theme => ({
     textField: {
@@ -106,7 +107,7 @@ export default function ContactDialog(props) {
 
          <br />
 
-         <TextField  className={classes.textField} variant="outlined" required id="viesti" label="Viesti" multiline rows={10}/>
+         <TextField  className={classes.textField} variant="outlined" required id="viesti" label="Viesti" multiline minRows={10}/>
 
         </form>
         </DialogContent>
