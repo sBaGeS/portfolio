@@ -1,0 +1,28 @@
+#footerRoot{
+    background-color: rgba(210, 208, 187, 1);
+    height: 60px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+#contact_info_label{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#email_info{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+
+#emailIcon{
+  margin-right: 2px;
+}
+
+#footer_left{
+  margin-left: 2%;
+}
