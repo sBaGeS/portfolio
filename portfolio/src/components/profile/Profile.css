@@ -1,0 +1,36 @@
+#koulutus{
+    background-color: rgba(236, 243, 192, 1);
+    border: 2px solid black;
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 1%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.title{
+  text-align: center;
+}
+.text{
+ font-weight: 400;
+}
+
+@media only screen and (min-width: 950px){
+#koulutus{
+ width: 33%;
+}
+}
+
+/*tablet*/
+@media only screen and (min-width: 650px) and (max-width: 950px){
+#koulutus{
+ width: 93%;
+}
+}
+
+/*mobile*/
+@media only screen and (max-width: 650px){
+#koulutus{
+width: 93%;
+}
+}
