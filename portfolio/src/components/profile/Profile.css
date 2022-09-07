@@ -22,6 +22,15 @@
  font-weight: 700;
 }
 
+small{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+h4{
+  margin-bottom: 0px;
+}
+
 #osaaminen_gridContainer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -32,6 +41,7 @@
 .osaaminen_item{
   outline: 1px solid black;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 /*pc*/
@@ -43,7 +53,7 @@
   
   .float-child {
     width: 37%;
-    height: 280px;
+    height: 330px;
     float: left;
     margin-left: 10px;
     padding: 20px;
@@ -61,7 +71,7 @@
   
   .float-child {
     width: 33%;
-    height: 280px;
+    height: 330px;
     float: left;
     margin-left: 10px;
     padding: 20px;
@@ -79,7 +89,7 @@
   
   .float-child {
     width: 40%;
-    height: 350px;
+    height: 400px;
     float: left;
     margin-left: 10px;
     padding: 20px;

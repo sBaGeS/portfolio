@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Profile.css"
 import {AiOutlineFileWord, AiOutlineFileExcel, AiOutlineHtml5} from "react-icons/ai";
-import {FaRegFilePowerpoint, FaNodeJs, FaReact} from "react-icons/fa";
+import {FaRegFilePowerpoint, FaNodeJs, FaReact, FaUnity} from "react-icons/fa";
 import {SiJavascript, SiCsswizardry, SiMysql} from "react-icons/si";
 
 
@@ -24,46 +24,57 @@ export default function Profile() {
              <div id="osaaminen_gridContainer">
              <div className='osaaminen_item'>
             <h4><AiOutlineFileWord/>Word</h4>
+            <small>Tyydyttävä</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><FaRegFilePowerpoint/>Powerpoint</h4>
+            <small>Hyvä</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><AiOutlineFileExcel/>Excel</h4>
+            <small>Alkeet</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><SiCsswizardry/>CSS</h4>
+            <small>Hyvä</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><AiOutlineHtml5/>HTML</h4>
+            <small>Hyvä</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><SiJavascript/>Javascript</h4>
+            <small>Erinomainen</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><FaNodeJs/>Nodejs </h4>
+            <small>Erinomainen</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><SiMysql/>SQL</h4>
+            <small>Hyvä</small>
             </div>
   
             <div className='osaaminen_item'>
             <h4><FaReact/>React</h4>
+            <small>Hyvä</small>
             </div>
 
             <div className='osaaminen_item'>
-            <h4></h4>
+            <h4>C#</h4>
+            <small>Alkeet</small>
             </div>
 
             <div className='osaaminen_item'>
-            <h4></h4>
+            <h4><FaUnity/>Unity</h4>
+            <small>Alkeet</small>
             </div>
 
             <div className='osaaminen_item'>
