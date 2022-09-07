@@ -5,12 +5,10 @@
 }
 
 #harrastukset{
-  margin-left: 10px;
-  width: 50%;
   margin-bottom: 70px;
 }
 
-.title{
+#title_koulutus, #title_osaaminen, #title_harrastukset{
   text-align: center;
   border: 2px solid red;
   border-bottom-style: dashed;
@@ -61,6 +59,11 @@ h4{
   #tekninen_osaaminen{
     width: 55%;
   }
+  #harrastukset{
+    height: 365px;
+    margin-left: 9%;
+    width: 80%;
+  }
 }
 
 
@@ -79,6 +82,11 @@ h4{
   #tekninen_osaaminen{
     width: 55%;
   }
+  #harrastukset{
+    height: 365px;
+    margin-left: 10px;
+    width: 92%;
+  }
 }
 
 /*tablet*/
@@ -88,15 +96,25 @@ h4{
   }
   
   .float-child {
-    width: 40%;
-    height: 400px;
+    width: 33%;
+    height: 370px;
     float: left;
     margin-left: 10px;
     padding: 20px;
   }
 
   #harrastukset{
+    height: 520px;
     width: 90%;
+  }
+
+  #tekninen_osaaminen{
+    width: 50%;
+  }
+
+  #title_koulutus, #title_osaaminen, #title_harrastukset{
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
 }
