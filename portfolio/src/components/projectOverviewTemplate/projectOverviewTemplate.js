@@ -5,8 +5,31 @@ import "./projectOverviewTemplate.css"
 export default function ProjectTemplate() {
 
         return (
-            <div id="templateRoot">
-                <h1>test test test</h1>
+            <div id="templateGrid">
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
+                <div className='grid_item'>
+                </div>
             </div>
         )
 }
