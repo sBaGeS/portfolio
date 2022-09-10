@@ -1,11 +1,12 @@
 #templateGrid{
     display: grid;
-    width: 97%;
+    width: 97.5%;
     height: 760px;
     margin-bottom: 70px;
     margin-top: 10px;
     margin-left: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: rgba(236, 243, 192, 1);
     border: 2px solid black;
     padding: 10px;
@@ -16,24 +17,61 @@
     text-align: center;
     background-color: rgba(236, 220, 172, 1);
     margin: 10px;
+    padding: 20px;
   }
 
-  @media only screen and (min-width: 950px) and (max-width: 1400px){
+  .projectPhoto{
+    height: 40%;
+    width: 100%;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  .githubButton{
+    font-size: 16px;
+    background-color: lightblue;
+    border: black 2px solid;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+  @media only screen and (min-width: 1350px) and (max-width: 1600px){
     #templateGrid{
         display: grid;
-        width: 95.5%;
+        width: 97%;
         height: 760px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       }
   }
 
   /*tablet*/
-@media only screen and (min-width: 650px) and (max-width: 950px){
+@media only screen and (min-width: 1150px) and (max-width: 1350px){
+    #templateGrid{
+        display: grid;
+        width: 96.5%;
+        height: 760px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+  }
+
+  @media only screen and (min-width: 850px) and (max-width: 1150px){
+    #templateGrid{
+        display: grid;
+        width: 95.5%;
+        height: 760px;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+  }
+
+  @media only screen and (min-width: 650px) and (max-width: 850px){
     #templateGrid{
         display: grid;
         width: 93.5%;
         height: 760px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
       }
   }
 
@@ -43,6 +81,6 @@
         display: grid;
         width: 91.5%;
         height: 760px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
       }
   }

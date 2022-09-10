@@ -78,7 +78,8 @@ export default function Profile() {
             </div>
 
             <div className='osaaminen_item'>
-            <h4></h4>
+            <h4>C++</h4>
+            <small>Alkeet</small>
             </div>
 
             </div>
@@ -88,16 +89,16 @@ export default function Profile() {
              <h2 id='title_harrastukset'>Harrastukset ja mielenkiinnon kohteet</h2>
              <a className="text">Tykkään tietokoneista ja tietotekniikasta, suurin osa vapaa-ajastani 
              kuluu tietokoneella istumiseen. <br/><br/>Tietokoneella ollessa tulee katseltua paljon youtubea, 
-             jonkin verran twitchiä ja joskus myös elokuvia ja sarjoja. Sarjoissa ja elokuvissa pidän
-             eniten toiminnasta ihan toimintakomedioista sinne hieman raaempaan päätyyn sekä scifistä.
-             Youtubea tykkään katsella todella laidasta laitaan, tietotekniikkaa, dokkareita, peleihin liittyviä 
-             videoita, draamaa. Käytännössä katselen kaikkea mikä nyt vain vaikuttaa sillä hetkellä mielenkiintoiselta<br/><br/>
+             jonkin verran twitchiä ja joskus myös elokuvia ja sarjoja. 
+             Youtubea tykkään katsella todella laidasta laitaan, tietotekniikkaa, dokkareita, peleihin liittyviä videoita, draamaa. Käytännössä 
+             katselen kaikkea mikä nyt vain vaikuttaa sillä hetkellä mielenkiintoiselta Sarjoissa ja elokuvissa pidän
+             eniten toiminnasta ihan toimintakomedioista sinne hieman raaempaan päätyyn sekä scifistä. <br/><br/>
              Pelaan myös jonkin verran tietokonepelejä ja usein pelatessa tulee samalla striimattua pelaamistani 
-             twitchiin joskin koen hieman olevani kyllästynyt kun aikoinaan tullut pelattua todella paljon ellei 
+             twitchiin joskin koen olevani hieman kyllästynyt kun aikoinaan tullut pelattua todella paljon ellei 
              jopa liikaa. Suosikki pelini on ehdottomasti CS:GO yli 4000 tuntia käytetty kyseiseen peliin ja hyvänä 
              kakkosena minecraft johon en ole muutamaan vuoteen koskenut mutta on siihenkin tullut aikaa 
              upotettua ainakin parintuhannen tunnin verran vuosien 2012-2020 välillä. <br/><br/>Luonteeltani olen introvertti 
-             ja viihdyn mielestäni hyvin yksin, olen myös rauhallinen ja rehellinen</a>
+             ja viihdyn mielestäni hyvin yksin, olen myös rauhallinen ja rehellinen ja tykkään uusien asioiden oppimisesta.</a>
              </div>
             </div>
             </div>

@@ -51,7 +51,7 @@
 @media only screen and (min-width: 950px){ 
 #homeTitle{
  text-align: center;
- margin-top: 5px;
+ margin-top: 25px;
  margin-left: 40%;
  margin-right: 40%;
  background-color: white;
@@ -72,7 +72,7 @@ background-color: white;
 @media only screen and (min-width: 650px) and (max-width: 950px){ 
     #homeTitle{
      text-align: center;
-     margin-top: 5px;
+     margin-top: 25px;
      margin-left: 30%;
      margin-right: 30%;
      background-color: white;
@@ -93,7 +93,7 @@ background-color: white;
 @media only screen and (max-width: 650px){ 
     #homeTitle{
      text-align: center;
-     margin-top: 5px;
+     margin-top: 25px;
      margin-left: 20%;
      margin-right: 20%;
      background-color: white;
