@@ -44,7 +44,7 @@ export default function ProjectTemplate() {
                 </a>
                 <br/>
                 <br/>
-                <a>En ole julkaissut tätä projektia julkisesti githubiin.
+                <a>En ole julkaissut tätä projektia githubiin.
                 </a>
                 </div>
 
