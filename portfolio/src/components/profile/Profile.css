@@ -74,7 +74,7 @@ h4{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .float-child {
-    height: 260px;
+    height: 350px;
   }
   #tekninen_osaaminen{
     width: 58.5%;
@@ -104,7 +104,7 @@ h4{
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .float-child {
-    height: 350px;
+    height: 445px;
   }
   #tekninen_osaaminen{
     width: 55.5%;
@@ -116,7 +116,7 @@ h4{
 
 @media only screen and (min-width: 750px) and (max-width: 1000px){
   .float-child {
-    height: 440px;
+    height: 535px;
   }
   #tekninen_osaaminen{
     width: 51.5%;
