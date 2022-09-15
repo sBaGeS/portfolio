@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./Profile.css"
 import {AiOutlineFileWord, AiOutlineFileExcel, AiOutlineHtml5} from "react-icons/ai";
-import {FaRegFilePowerpoint, FaNodeJs, FaReact, FaUnity} from "react-icons/fa";
+import {FaRegFilePowerpoint, FaNodeJs, FaReact, FaUnity, FaGitAlt} from "react-icons/fa";
 import {SiJavascript, SiCsswizardry, SiMysql, SiBlender} from "react-icons/si";
 
 
@@ -85,6 +85,11 @@ export default function Profile() {
             <div className='osaaminen_item'>
             <h4><SiBlender/>Blender</h4>
             <small>Alkeet</small>
+            </div>
+
+            <div className='osaaminen_item'>
+            <h4><FaGitAlt/>Git</h4>
+            <small>Tyydyttävä</small>
             </div>
 
             </div>
