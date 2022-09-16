@@ -38,7 +38,7 @@ export default function ProjectTemplate() {
 
                 <div className='grid_item'>
                 <a href="project3"><img src={project3} className="projectPhoto"/></a>
-                <a href="project3" className="project_title"><h2>Elorating systeemi csgo peliin</h2></a>
+                <a href="project3" className="project_title"><h2>Elorating systeemi CS:GO peliin</h2></a>
                 <a>Eloluvun avulla toteutettu systeemi Counterstrike Global Offensive pelin ammattilaispelaajien ja 
                 tiimien taitotason vertailuun.
                 </a>
