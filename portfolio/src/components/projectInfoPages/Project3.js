@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import "./Project3.css"
+import "./Project.css"
 import kuva1 from "../../pictures/project3_pic1.png"
 import kuva2 from "../../pictures/project3.png"
 
-export default function Project1() {
+export default function Project3() {
 
         return (
-            <div id="projectRoot">
-            <h1 id='project3_title'>Elorating systeemi CS:GO peliin</h1>   
-            <div className="float_project">
+            <div className="projectRoot">
+            <h1 className='project_title'>Elorating systeemi CS:GO peliin</h1>   
+            <div className="project_box">
 
-             <div id="project3_info" className='project3_child'>
-             <h2 id="title_info3">Projektin Kuvaus</h2>
+
+             <div className='project_child'>
+             <div className='title_div'>
+             <h2 className='title'>Projektin kuvaus</h2><br/><br/>
+             </div>
              <a className='text_project'>Tämä projekti koostuu mysql tietokannasta johon tiedot tallennetaan sekä 
              javascript tiedostoista jotka ovat erillisiä komentokehotteen tai powershellin avulla ajettavia 
              nodejs scriptejä joilla kaikilla on oma tarkoituksensa datan
@@ -28,8 +31,8 @@ export default function Project1() {
              Toistaiseksi en ole päässyt tuohon tavoitteeseen, teknisesti kaikki toimii mutta ennusteet eivät vain ole tarpeeksi
              paikkaansapitäviä.
              </a>
-             <div id="templateGrid_info3">
 
+             <div id="templateGrid_info3">
              <div className='info3_gridItem'>
              <img src={kuva1} id="kuva1"></img>
              <a className="text_project">Yläpuolella olevassa kuvassa on esiteltynä powershellillä tulostettu ennuste tiimien ENCE ja
@@ -52,16 +55,20 @@ export default function Project1() {
 
              </div>
 
-             <div id="funktiot3" className='project3_child'>
-             <h2 id='title_funktiot3'>Funktioiden kuvaukset</h2>
+             <div className='project_child'>
+             <div className='title_div'>
+             <h2 className='title'>Tärkeimmät toiminnallisuudet</h2><br/><br/>
+             </div>
              <a className="text_project">Datan keräämisen netistä toteutin Puppeteerin avulla joka on nodeen asennettava
              moduuli joka sisältää koodilla ohjattavan chromium selaimen jota voi käyttää esimerkiksi datan keräämiseen
              miltä tahansa nettisivulta eli webscrapeemiseen. Kaikki tähän projektiin tarvittava data on webscrapettu hltv.org
              sivustolta puppeteerin avulla.</a>
              </div>
 
-             <div id="ongelmat3" className='project3_child'>
-             <h2 id='title_ongelmat3'>Ongelmat ja ratkaisut</h2>
+             <div className='project_child bottom'>
+             <div className='title_div'>
+             <h2 className='title'>Ongelmat ja ratkaisut</h2><br/><br/>
+             </div>
              <a className="text_project">tähän tietoa projektin ongelmista ja ratkaisuista</a>
              </div>
 

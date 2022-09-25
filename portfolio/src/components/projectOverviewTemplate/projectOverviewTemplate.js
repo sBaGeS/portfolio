@@ -47,14 +47,6 @@ export default function ProjectTemplate() {
                 <a>En ole julkaissut tätä projektia githubiin.
                 </a>
                 </div>
-
-                <div className='grid_item'>
-                <a href="project4"><img className="projectPhoto"/></a>
-                <a href="project4" className="project_title"><h2>Portfolio</h2></a>
-                <a>portfolio</a>
-                <br/>
-                <button className='githubButton' onClick={e =>handleGithubClicked(4)}>Projektin github sivu</button>
-                </div>
             </div>
         )
 }

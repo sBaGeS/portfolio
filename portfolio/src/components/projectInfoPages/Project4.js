@@ -1,30 +1,41 @@
 import React, { useState } from 'react';
-import "./Project1.css"
+import "./Project.css"
 
-export default function Project1() {
+export default function Project4() {
 
         return (
-            <div id="projectRoot">
-            <div className="float_project">
+            <div className="projectRoot">
+            <h1 className='project_title'>Projektin nimi</h1>
 
-             <div id="tavoitteet" className='project_child'>
-             <h2 id='title_tavoitteet'>Projektin tavoitteet</h2>
-             <a className='text_project'>tähän projektin tavoitteet</a>
+            <div className="project_box">
+
+             <div className='project_child'>
+             <div className='title_div'>
+             <h2 className='title'>Projektin kuvaus</h2><br/><br/>
+             </div>
+             <a className='text_project'>projektin kuvaus</a>
              </div>
 
-             <div id="videoesittely" className="project_child">
-             <h2 id='title_video'>Videoesittely</h2>
-                <a className='text_project'>tähän upotettu video</a>
+             <div className='project_child'>
+                
+             <div className='title_div'>
+             <h2 className='title'>Tehtävien Kuvaus</h2><br/><br/>
+             </div>
+             <a className="text_project">tehtävien kuvaus</a>
              </div>
 
-             <div id="tekninen_toteutus" className='project_child'>
-             <h2 id='title_toteutus'>Tekninen toteutus</h2>
-             <a className="text_project">tähän tietoa teknisestä toteutuksesta</a>
+             <div className='project_child'>
+             <div className='title_div'>
+             <h2 className='title'>Tärkeimmät toiminnallisuudet</h2><br/><br/>
+             </div>
+             <a className="text_project">tietoa toiminallisuuksista</a>
              </div>
 
-             <div id="toiminnallisuudet" className='project_child'>
-             <h2 id='title_toiminnallisuudet'>Projektin toiminnallisuudet</h2>
-             <a className="text_project">tähän tietoa projektin toiminnallisuuksista</a>
+             <div className='project_child bottom'>
+             <div className='title_div'>
+             <h2 className='title'>Ongelmat ja ratkaisut</h2><br/><br/>
+             </div>
+             <a className="text_project">ongelmat ja ratkaisut</a>
              </div>
 
             </div>

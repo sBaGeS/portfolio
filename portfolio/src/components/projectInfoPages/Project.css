@@ -1,0 +1,38 @@
+
+.project_child.bottom{
+margin-bottom: 70px;
+}
+
+.title_div{
+  text-align: center;
+}
+
+.project_title{
+  color: blue;
+  margin-left: 40px;
+}
+
+.title{
+border: 2px solid red;
+display:inline;
+padding-left: 10px;
+padding-right: 10px;
+border-bottom-style: dashed;
+color: black;
+}
+
+.text_project{
+font-weight: 700;
+}
+
+.project_box {
+ padding: 10px;
+}
+
+.project_child {
+  width: calc(100% - 44px);
+  padding: 20px;
+  background-color: rgba(236, 243, 192, 1);
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
