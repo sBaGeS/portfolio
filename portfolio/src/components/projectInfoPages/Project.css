@@ -36,3 +36,27 @@ font-weight: 700;
   border: 2px solid black;
   margin-bottom: 10px;
 }
+
+#templateGrid_info3{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+#kuva1{
+ width: 100%;
+}
+
+#kuva2{
+ width: 100%;
+}
+
+@media only screen and (max-width: 850px){  
+  #templateGrid_info3{
+    grid-template-columns: 1fr;
+  }
+}
+
+

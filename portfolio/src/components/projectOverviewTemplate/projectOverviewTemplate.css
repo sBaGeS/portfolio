@@ -18,7 +18,7 @@
     background-color: rgba(236, 220, 172, 1);
     margin: 10px;
     padding: 20px;
-    height: 450px;
+    height: 480px;
   }
 
   .projectPhoto{
@@ -50,11 +50,11 @@
     #templateGrid{
         display: grid;
         width: 97%;
-        height: 675px;
+        height: 760px;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       }
       .grid_item{
-        height: 450px;
+        height: 480px;
       }
   }
 
@@ -63,11 +63,11 @@
     #templateGrid{
         display: grid;
         width: 96.5%;
-        height: 675px;
+        height: 760px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
       }
       .grid_item{
-        height: 450px;
+        height: 500px;
       }
   }
 
@@ -75,11 +75,11 @@
     #templateGrid{
         display: grid;
         width: 95.5%;
-        height: 1022px;
+        height: 760px;
         grid-template-columns: 1fr 1fr 1fr;
       }
       .grid_item{
-        height: 450px;
+        height: 500px;
       }
   }
 
@@ -87,11 +87,11 @@
     #templateGrid{
         display: grid;
         width: 93.5%;
-        height: 1022px;
+        height: 1050px;
         grid-template-columns: 1fr 1fr;
       }
       .grid_item{
-        height: 450px;
+        height: 460px;
       }
       .projectPhoto{
         height: 45%;
@@ -105,7 +105,7 @@
     #templateGrid{
         display: grid;
         width: 91.5%;
-        height: 2044px;
+        height: 1530px;
         grid-template-columns: 1fr;
       }
       .grid_item{

@@ -34,7 +34,9 @@ export default function Project3() {
 
              <div id="templateGrid_info3">
              <div className='info3_gridItem'>
+           
              <img src={kuva1} id="kuva1"></img>
+
              <a className="text_project">Yläpuolella olevassa kuvassa on esiteltynä powershellillä tulostettu ennuste tiimien ENCE ja
              Astralis välisestä ottelusta ennen ottelun pelaamista. Ennusteen mukaan ENCE:n voittomahdollisuus 48.8% ja Astraliksen
              51.2%. Ylhäällä näkyy kaikki kartat ja karttakohtaiset voittomahdollisuudet esimerkiksi kartassa Dust2 ENCEN
@@ -45,6 +47,7 @@ export default function Project3() {
              </div>
 
              <div className='info3_gridItem' id="grid_item2">
+   
              <img src={kuva2} id="kuva2"></img>
              <a className="text_project">Yläpuolella olevassa kuvassa näkyy tietokannan pelaajataulukko. Rating sarakkeeseen
              on laskettu yhteen pelaajan kaikkien eri karttojen ratingit ja rivit on järjestetty sen mukaan. Eli toisin sanoen
