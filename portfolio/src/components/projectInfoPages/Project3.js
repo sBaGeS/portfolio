@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import "./Project.css"
 import kuva1 from "../../pictures/project3_pic1.png"
 import kuva2 from "../../pictures/project3.png"
+import kuva3 from "../../pictures/project3_pic3.png"
+import kuva4 from "../../pictures/project3_pic4.png"
 
 export default function Project3() {
 
@@ -33,12 +35,12 @@ export default function Project3() {
              projektia myös muihin peleihin todennäköisesti ensimmäiseksi Valoranttiin koska se on lähimpänä CS:GO:ta.
              </a>
 
-             <div id="templateGrid_info3">
-             <div className='info3_gridItem'>
+             <div className="picture_grid">
+             <div>
            
-             <img src={kuva1} id="kuva1"></img>
+             <img src={kuva1} className="picture"></img>
 
-             <a className="text_project">Yläpuolella olevassa kuvassa on esiteltynä powershellillä tulostettu ennuste tiimien ENCE ja
+             <a className="text_project">Kuvassa on esiteltynä powershellillä tulostettu ennuste tiimien ENCE ja
              Astralis välisestä ottelusta ennen ottelun pelaamista. Ennusteen mukaan ENCE:n voittomahdollisuus 48.8% ja Astraliksen
              51.2%. Ylhäällä näkyy kaikki kartat ja karttakohtaiset voittomahdollisuudet esimerkiksi kartassa Dust2 ENCEN
              voittomahdollisuudet ovat 63.9% ja Astralikselle jää noin 36.1%. Näiden alapuolella näkyy kolme karttaa jotka ohjelma
@@ -47,10 +49,10 @@ export default function Project3() {
              </a>
              </div>
 
-             <div className='info3_gridItem' id="grid_item2">
+             <div>
    
-             <img src={kuva2} id="kuva2"></img>
-             <a className="text_project">Yläpuolella olevassa kuvassa näkyy tietokannan pelaajataulukko. Rating sarakkeeseen
+             <img src={kuva2} className="picture"></img>
+             <a className="text_project">Kuvassa näkyy tietokannan pelaajataulukko. Rating sarakkeeseen
              on laskettu yhteen pelaajan kaikkien eri karttojen ratingit ja rivit on järjestetty sen mukaan. Eli toisin sanoen
              kuvassa näkyy minun ratingsysteemin mukaan pelin parhaat pelaajat kuvan ottamishetkenä kokonaisratingin mukaan järjestettynä.
              </a>
@@ -88,13 +90,35 @@ export default function Project3() {
              erotusta.<br/><br/> Datascraper kansion alla oleva update.js tekee melkein saman kun nuo kaksi scriptiä yhteensä
              eroina ne että pitkän aikavälin sijaan gamehistoryyn lisätään vain eilisen pelit, tauluja ei tyhjennetä eli ratingit
              muutetaan edellisten päälle ja tietenkin vain uusien juuri lisättyjen pelien osalta ja uusia ennusteita ei analysoida millään
-             tavalla. Tätä käytän päivittäin tietokannan ajallaanpitämisessä.<br/><br/> Datascraper kansion alla olevaa predictor.js
+             tavalla. Tätä käytän päivittäin tietokannan pitämiseen ajantasalla.<br/><br/> Datascraper kansion alla olevaa predictor.js
              scriptiä käytän lähes päivittäin uusien pelien tulosten ennustamiseen. Scripti menee puppeteerin avulla hltv.org/matches
              sivulle josta se käy läpi kaikki uudet pelit joita ei ole vielä pelattu ja laskee niihin ennusteet tietokannassa olevien
              pelaajaratingejen perusteella.
-            
-
              </a>
+
+             <div className="picture_grid">
+             <div>
+           
+             <img src={kuva3} className="picture"></img>
+
+             <a className="text_project">Kuvassa näkyy koodia Datascraperin predictor.js scriptistä. Ensiksi koodi starttaa
+             puppeteerin eli chromium selaimen jota voi ohjata koodilla. Seuraavaksi scripti avaa tyhjän sivun ja asettaa selaimen useragentin oman
+             koneeni chrome selaimen mukaiseksi. Sitten se navigoi hltv.org/matches sivulle ja etsii kaikki sivustolla olevat linkit.
+             Tämän jälkeen linkit parsitaan niin että jäljelle jää vain ne mitä tarvitsen eli linkit kaikkiin uusiin otteluihin.
+             Sitten loopataan kaikki jäljellä olevat linkit läpi, ensin navigoiden linkkiin selaimella, jonka jälkeen scrapetaan sivulta tiimien nimet
+             ja tarkistetaan onko niitä vielä olemassa tietokannassani ja jos ei niin lisätään ne sinne. Tämän jälkeen tehdään vielä paljon kaikkea
+             mutta enempää en saanut kuvaan mahtumaan sillä scripti on kokonaisuudessaan yli 800 riviä pitkä.
+             </a>
+             </div>
+
+             <div>
+   
+             <img src={kuva4} className="picture"></img>
+             <a className="text_project">Kuvassa näkyy tämän projektin tietokantamalli.
+             </a>
+             </div>
+             </div>
+
              </div>
 
              <div className='project_child bottom'>
