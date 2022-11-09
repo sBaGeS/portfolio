@@ -18,18 +18,19 @@ export default function Project3() {
              <a className='text_project'>Tämä projekti koostuu mysql tietokannasta johon tiedot tallennetaan sekä 
              javascript tiedostoista jotka ovat erillisiä komentokehotteen tai powershellin avulla ajettavia 
              nodejs scriptejä joilla kaikilla on oma tarkoituksensa datan
-             hakemiseen netistä, sen tallentamiseen, hakemiseen tietokannasta tai muokkamiseen. Tästä kerrottuna tarkemmin
-             funktioiden kuvaukset kappaleessa. <br/> <br/> Tämä projekti on kokonaan minun tekemä ja suunniteltu minulle
+             hakemiseen netistä, sen tallentamiseen, hakemiseen tietokannasta tai muokkaamiseen. Tästä kerrottuna tarkemmin
+             tärkeimmät toiminnallisuudet kappaleessa. <br/> <br/> Tämä projekti on kokonaan minun tekemä ja suunniteltu minulle
              henkilökohtaiseen käyttöön, mikä näkyy muun muassa suunnitelman puuttumisena sekä projektin aikautauluissa. 
              En jaksanut tehdä mitään suunnitelmaa koska en kokenut sitä tarpeellisena. Mitään varsinaista aikatauluakaan tällä
              projektilla ei ole, edistyminen kulki ihan sen mukaan kuinka paljon minulla oli aikaa ja motivaatiota tämän projektin
              tekemiseen eli joskus tein 10 tuntia päivässä ja joskus jätin hyllylle lojumaan x määräksi aikaa kun loppui motivaatio
              tai aika.<br/> <br/> Koen tämän projektin muuten valmiiksi paitsi kaavaan jolla elolukuja päivitetään
-             saattaa vielä tulla joskus muutoksia jos koen että ennusteet eivät ole tarpeeksi paikkaansapitäviä. <br/> <br/>
+             tulee vielä muutoksia koska koen että ennusteet eivät ole tarpeeksi paikkaansapitäviä. <br/> <br/>
              Projektin tavoite on ennustaa tulevia CS:GO pelejä riittävän tarkasti että pystyn tekemään sen avulla rahaa
              esimerkiksi lyömällä itse vetoa niihin peleihin tai myymällä ennusteita eteenpäin muiden käytettäväksi. 
              Toistaiseksi en ole päässyt tuohon tavoitteeseen, teknisesti kaikki toimii mutta ennusteet eivät vain ole tarpeeksi
-             paikkaansapitäviä.
+             paikkaansapitäviä. Jos ja kun saan ratingin laskukaavan toimivaksi olisi tarkoitus laajentaa
+             projektia myös muihin peleihin todennäköisesti ensimmäiseksi Valoranttiin koska se on lähimpänä CS:GO:ta.
              </a>
 
              <div id="templateGrid_info3">
@@ -51,7 +52,7 @@ export default function Project3() {
              <img src={kuva2} id="kuva2"></img>
              <a className="text_project">Yläpuolella olevassa kuvassa näkyy tietokannan pelaajataulukko. Rating sarakkeeseen
              on laskettu yhteen pelaajan kaikkien eri karttojen ratingit ja rivit on järjestetty sen mukaan. Eli toisin sanoen
-             kuvassa näkyy minun ratingsyysteemin mukaan pelin parhaat pelaajat kokonaisratingin mukaan järjestettynä.
+             kuvassa näkyy minun ratingsysteemin mukaan pelin parhaat pelaajat kuvan ottamishetkenä kokonaisratingin mukaan järjestettynä.
              </a>
              </div>
              </div>
@@ -65,7 +66,35 @@ export default function Project3() {
              <a className="text_project">Datan keräämisen netistä toteutin Puppeteerin avulla joka on nodeen asennettava
              moduuli joka sisältää koodilla ohjattavan chromium selaimen jota voi käyttää esimerkiksi datan keräämiseen
              miltä tahansa nettisivulta eli webscrapeemiseen. Kaikki tähän projektiin tarvittava data on webscrapettu hltv.org
-             sivustolta puppeteerin avulla.</a>
+             sivustolta puppeteerin avulla. Seuraavaksi kerron projektin tärkeimmistä scripteistä ja mitä ne tekevät.
+             Olen jakanut scriptit kahteen kansioon sen mukaan kuinka usein niitä tarvitsee käyttää. Testing kansion alta löytyy
+             scriptit jota tarvitsen harvoin ja Datascaperiksi nimetyn kansion alle olen koonnut scriptit joita käytän lähes
+             päivittäin. <br/><br/>Testing kansion alla oleva index.js navigoi puppeteerin avulla hltv.org/results osoitteeseen ja käy 
+             yksitellen kaikki pelatut pelit läpi niin pitkältä aikaväliltä kun olen sille määritellyt, tällä hetkellä minulla on
+             tulokset yli 54700 pelistä vuodesta 2016 alkaen. Scripti kirjaa jokaisen tuloksen tiedot ylös tietokantaan
+             gamehistory tauluun, sinne kirjataan pelin päivämäärä, tiimien nimet, pelaajien nimet, pelaajien karttakohtaiset hltv
+             ratingit ja pelattujen karttojen nimet ja tulokset. Tätä tarvitsen vain kerran kaikkien tuloksien
+             hakemista varten.<br/><br/> Testing kansion alla oleva predictor.js on
+             tehty kaikkien ratingien uudelleenlaskemiseen ja niiden testaamiseen ja tätä tarvitsen silloin kun muutan 
+             kaavaa jota käytän ratingien laskemiseen. Käytännössä ensimmäisenä tämä scripti tyhjentää suurimman osan tietokannan
+             tauluista muun muassa pelaajataulukon, tiimitaulukon ja ennustustaulukon. Tämän jälkeen lähdetään gamehistoryä
+             käymään läpi rivi kerrallaan ja lisätään tarvittavat tiimit ja pelaajat jos niitä ei vielä ole ja lähdetään
+             päivittämään pelaajien karttakohtaisia ratingeja tulosten perusteella. Kun päästään tarpeeksi pitkälle minun
+             määrittelemääni kohtaan gamehistoryn käsittelyssä ennen ratingejen muuttamista scripti tekee ennusteen pelin
+             tuloksesta ja kirjaa ennusteen sekä oikean tuloksen ylös predictions tauluun josta niitä myöhemmin analysoidaan,
+             tarkoituksena selvittää kuinka tarkkoja ennusteet ovat. Kun koko gamehistory on käyty läpi sitten scripti käy ennusteet
+             läpi ja laskee niille mse arvon eli mean squared error jonka jälkeen sama tehdään niin että scripti arpoo tulokset
+             oikeiden tuloksien sijaan käyttäen ennusteiden probabilityjä ja viimeiseksi vertaillaan näiden kahden mse arvon
+             erotusta.<br/><br/> Datascraper kansion alla oleva update.js tekee melkein saman kun nuo kaksi scriptiä yhteensä
+             eroina ne että pitkän aikavälin sijaan gamehistoryyn lisätään vain eilisen pelit, tauluja ei tyhjennetä eli ratingit
+             muutetaan edellisten päälle ja tietenkin vain uusien juuri lisättyjen pelien osalta ja uusia ennusteita ei analysoida millään
+             tavalla. Tätä käytän päivittäin tietokannan ajallaanpitämisessä.<br/><br/> Datascraper kansion alla olevaa predictor.js
+             scriptiä käytän lähes päivittäin uusien pelien tulosten ennustamiseen. Scripti menee puppeteerin avulla hltv.org/matches
+             sivulle josta se käy läpi kaikki uudet pelit joita ei ole vielä pelattu ja laskee niihin ennusteet tietokannassa olevien
+             pelaajaratingejen perusteella.
+            
+
+             </a>
              </div>
 
              <div className='project_child bottom'>

@@ -5,7 +5,7 @@ export default function Project1() {
 
         return (
             <div className="projectRoot">
-            <h1 className='project_title'>Mökkien Vuokraus nettisivu</h1>
+            <h1 className='project_title'>Mökkien vuokraus nettisivu</h1>
 
             <div className="project_box">
 
