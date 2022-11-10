@@ -101,7 +101,7 @@ export default function Profile() {
              kuluu tietokoneella istumiseen. <br/><br/>Tietokoneella ollessa tulee katseltua paljon youtubea, 
              jonkin verran twitchiä ja joskus myös elokuvia ja sarjoja. 
              Youtubea tykkään katsella todella laidasta laitaan, tietotekniikkaa, dokkareita, peleihin liittyviä videoita, draamaa. Käytännössä 
-             katselen kaikkea mikä nyt vain vaikuttaa sillä hetkellä mielenkiintoiselta Sarjoissa ja elokuvissa pidän
+             katselen kaikkea mikä nyt vain vaikuttaa sillä hetkellä mielenkiintoiselta. Sarjoissa ja elokuvissa pidän
              eniten toiminnasta ihan toimintakomedioista sinne hieman raaempaan päätyyn sekä scifistä. <br/><br/>
              Pelaan myös jonkin verran tietokonepelejä ja usein pelatessa tulee samalla striimattua pelaamistani 
              twitchiin joskin koen olevani hieman kyllästynyt kun aikoinaan tullut pelattua todella paljon ellei 
