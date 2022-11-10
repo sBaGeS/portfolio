@@ -125,7 +125,18 @@ export default function Project3() {
              <div className='title_div'>
              <h2 className='title'>Ongelmat ja ratkaisut</h2><br/><br/>
              </div>
-             <a className="text_project">tähän tietoa projektin ongelmista ja ratkaisuista</a>
+             <a className="text_project">Kaikkia pieniä ongelmia ja ratkaisuja en muista sillä en ole
+             kirjannut niitä mihinkään ylös. Puppeteerin käytön kanssa oli alussa pieniä ongelmia datan scrapeemisessa
+             johtuen kokemuksen puutteesta mutta näistä pääsin aina aika nopeasti yli youtube tutoriaalien ja googlettamisen 
+             avulla. Isoin ja vielä tällä hetkelläkin auki oleva ongelma tässä projektissa on kaava jolla ratingeja päivitetään.
+             Se on ollut alusta asti ongelma sillä minulla ei ole ollut siihen mitään valmista mallia vaan olen joutunut menemään
+             trial and error menetelmällä, eli olen vain muutellut eri asioiden painotusarvoja sekä elo rating systeemin 
+             k-factoria eli päivitysnopeutta mututuntumalla ja sen jälkeen aina testannut sen tarkkuutta. Toinen mahdollinen
+             ongelma on tapa jolla testaan kaavan tarkkuutta, todennäköisyyksien testaaminen ei ole ihan helpoimmasta päästä ja
+             tähän olen kokeillut monenlaista matemaattista sekä itse väkertämääni funktiota ennen kuin päädyin käyttämään
+             mean squared erroria, tämän valinnan tekemisessä käytin apuna tiedon hankintaa googlettamalla sekä youtube tutoriaaleja.
+
+             </a>
              </div>
 
             </div>
