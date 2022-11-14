@@ -31,7 +31,7 @@ export default function ProjectTemplate() {
                 <div className='grid_item'>
                 <a href="project2"><img src={project2} className="projectPhoto"/></a>
                 <a href="project2" className="project_title"><h2>Travian botti</h2></a>
-                <a>Verkkoselainpeliä traviania varten tehty botti joka pelaa peliä puolestani.</a>
+                <a>Verkkoselainpeliä traviania varten tekemäni botti joka pelaa peliä puolestani.</a>
                 <br/>
                 <button className='githubButton' onClick={e =>handleGithubClicked(2)}>Projektin github sivu</button>
                 </div>

@@ -76,7 +76,7 @@ export default function Project1() {
    
              <img src={kuva4} className="picture"></img>
              <a className="text_project">Kuvassa näkyy osa minun tekemästäni personController.js scriptistä joka kontrolloi backend requestit käyttäjien 
-             tietojen hakemiseen, lisäämiseen, muokkaamiseen ja poistamiseen. Kuvassa näkyy moduuli jonka vastuulla on käyttäjien tietoihin
+             tietojen hakemiseen, lisäämiseen, muokkaamiseen ja poistamiseen. Kuvassa näkyy funktio jonka vastuulla on käyttäjien tietoihin
              kohdistuvat get requestit eli niiden hakeminen. Ensimmäiseksi scripti kutsuu edellisessä kuvassa näkyvää authenticationControlleria.
              Sen jälkeen tarkistetaan onko käyttäjä kirjautunut sisälle, eli jos requestin header osiosta puuttuu token kenttä tai
              sitä on muokattu niin homma tyssää siihen. Silloin palautamme käyttäjälle koodin 401 sekä tiedon Not authorized.

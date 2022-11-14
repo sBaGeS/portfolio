@@ -100,7 +100,7 @@ export default function Profile() {
              <a className="text">Tykkään tietokoneista ja tietotekniikasta, suurin osa vapaa-ajastani 
              kuluu tietokoneella istumiseen. <br/><br/>Tietokoneella ollessa tulee katseltua paljon youtubea, 
              jonkin verran twitchiä ja joskus myös elokuvia ja sarjoja. 
-             Youtubea tykkään katsella todella laidasta laitaan, tietotekniikkaa, dokkareita, peleihin liittyviä videoita, draamaa. Käytännössä 
+             Youtubea tykkään katsella todella laajasti, tietotekniikkaa, rikosdokkareita, peleihin liittyviä videoita, draamaa ja tietovideoita itseäni kiinnostavista aiheista. Käytännössä 
              katselen kaikkea mikä nyt vain vaikuttaa sillä hetkellä mielenkiintoiselta. Sarjoissa ja elokuvissa pidän
              eniten toiminnasta ihan toimintakomedioista sinne hieman raaempaan päätyyn sekä scifistä. <br/><br/>
              Pelaan myös jonkin verran tietokonepelejä ja usein pelatessa tulee samalla striimattua pelaamistani 

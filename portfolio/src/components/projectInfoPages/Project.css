@@ -7,6 +7,11 @@ margin-bottom: 70px;
   text-align: center;
 }
 
+.video{
+  display: block;
+  margin: 0 auto;
+}
+
 .project_title{
   color: blue;
   margin-left: 40px;
@@ -52,6 +57,10 @@ font-weight: 700;
 @media only screen and (max-width: 850px){  
   .picture_grid{
     grid-template-columns: 1fr;
+  }
+  .video{
+    width: 400px;
+    height: 225px;
   }
 }
 

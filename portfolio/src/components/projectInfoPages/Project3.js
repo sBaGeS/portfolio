@@ -121,7 +121,7 @@ export default function Project3() {
 
              </div>
 
-             <div className='project_child bottom'>
+             <div className='project_child'>
              <div className='title_div'>
              <h2 className='title'>Ongelmat ja ratkaisut</h2><br/><br/>
              </div>
@@ -134,9 +134,17 @@ export default function Project3() {
              k-factoria eli päivitysnopeutta mututuntumalla ja sen jälkeen aina testannut sen tarkkuutta. Toinen mahdollinen
              ongelma on tapa jolla testaan kaavan tarkkuutta, todennäköisyyksien testaaminen ei ole ihan helpoimmasta päästä ja
              tähän olen kokeillut monenlaista matemaattista sekä itse väkertämääni funktiota ennen kuin päädyin käyttämään
-             mean squared erroria, tämän valinnan tekemisessä käytin apuna tiedon hankintaa googlettamalla sekä youtube tutoriaaleja.
+             mean squared erroria, tämän valinnan tekemisessä käytin apuna tiedon hankintaa googlettamalla sekä youtube tutoriaaleja katsomalla.
 
              </a>
+             </div>
+
+             
+             <div className='project_child bottom'>
+             <div className='title_div'>
+             <h2 className='title'>Videoesittely</h2><br/><br/>
+             </div>
+             <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/OK6OFznj4Zo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
              </div>
 
             </div>
