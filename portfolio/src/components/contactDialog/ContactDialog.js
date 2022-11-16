@@ -134,10 +134,8 @@ export default function ContactDialog(props) {
         </DialogContent>
 
                 <DialogActions>
-                <div id="buttonDivLeft">
+                <div id="buttonDiv">
                 <button id="button_close" onClick={() => handleClose()}><VscChromeClose id="icon_close"/>Sulje</button>
-                </div>
-                <div id="buttonDivRight">
                 <button id ="button_send" onClick={() => handleSend()}><BiMailSend id="icon_send"/>Lähetä</button>
                 </div>
                 </DialogActions>
