@@ -50,6 +50,14 @@ font-weight: 700;
   width: 100%;
 }
 
+.picture_grid.large{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
 .picture{
   width: 100%;
 }
