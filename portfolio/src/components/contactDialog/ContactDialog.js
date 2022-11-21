@@ -11,7 +11,6 @@ import {BiMailSend} from "react-icons/bi";
 
   const useStyles = makeStyles(theme => ({
     textField: {
-      width: 350,
         '& label.Mui-focused': {
             color: 'green',
           },
@@ -122,7 +121,7 @@ export default function ContactDialog(props) {
 
          <br />
 
-         <TextField  className={classes.textField} variant="outlined" required id="viesti" label="Viesti" multiline minRows={10}
+         <TextField  className={classes.textField} variant="outlined" required id="Viesti" label="Viesti" multiline minRows={10}
           error={viestiErrorMsg != ""} helperText={viestiErrorMsg} 
           onChange={(e) => {setViesti(e.target.value);
          (e.target.value.length === 0) ? setViestiErrorMsg("Viestikenttä Tyhjä") : setViestiErrorMsg("")
@@ -130,6 +129,11 @@ export default function ContactDialog(props) {
           />
 
         </form>
+        <div id="textDiv_contact">
+        <a id="text_contact">Lähetä nappulassa ei ole mitään toiminnallisuutta, jos haluat ottaa yhteyttä niin laita sähköpostia yhteystiedoissa olevaan 
+          osoitteeseen.
+        </a>
+        </div>
         </div>
         </DialogContent>
 

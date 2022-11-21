@@ -17,13 +17,13 @@ function App() {
     <BrowserRouter>
    <Navbar/>
    <Routes>
-    <Route path="/" element={<Home />}></Route>
-    <Route path="/all_projects" element={<ProjectTemplate />}></Route>
-    <Route path="/profile" element={<Profile />}></Route>
-    <Route path="/project1" element={<Project1 />}></Route>
-    <Route path="/project2" element={<Project2 />}></Route>
-    <Route path="/project3" element={<Project3 />}></Route>
-    <Route path="/project4" element={<Project4 />}></Route>
+    <Route path="/user/pauli.kemppainen/" element={<Home />}></Route>
+    <Route path="/user/pauli.kemppainen/all_projects" element={<ProjectTemplate />}></Route>
+    <Route path="/user/pauli.kemppainen/profile" element={<Profile />}></Route>
+    <Route path="/user/pauli.kemppainen/project1" element={<Project1 />}></Route>
+    <Route path="/user/pauli.kemppainen/project2" element={<Project2 />}></Route>
+    <Route path="/user/pauli.kemppainen/project3" element={<Project3 />}></Route>
+    <Route path="" element={<Project4 />}></Route>
    </Routes>
    <Footer/>
    </BrowserRouter>

@@ -37,10 +37,6 @@
   float: left;
 }
 
-#footer_right{
-  margin-left: 15%;
-}
-
 #contactButton{
   font-size: 18px;
   background-color: rgba(236, 243, 192, 1);
@@ -49,4 +45,15 @@
   font-weight: 600;
   margin-top: 10px;
   height: 40px;
+  cursor: pointer;
 }
+
+@media only screen and (max-width: 650px){ 
+  #contactButton{
+    font-size: 11px;
+  }
+  #footer_left{
+    width: 250px;
+    float: left;
+  }
+  }

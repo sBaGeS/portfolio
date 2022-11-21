@@ -23,7 +23,7 @@ else{
         <h1 id= "contact_info_label">Yhteystiedot</h1>
         <a id="email_info"><AiOutlineMail id="emailIcon"/>pauli1.kemppainen@gmail.com</a>
         </div>
-        <div id="footer_right"><button id="contactButton" onClick={() => open ? setOpen(false) : setOpen(true)}><GrContact id="contactIcon"/>Ota yhteyttä</button></div>
+        <div><button id="contactButton" onClick={() => open ? setOpen(false) : setOpen(true)}><GrContact id="contactIcon"/>Ota yhteyttä</button></div>
         {dialog}
         </div>
     );

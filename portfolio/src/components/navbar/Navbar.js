@@ -10,15 +10,15 @@ export default function Navbar() {
     let navigate = useNavigate();
 
     function handleProjectClick(){
-        navigate("all_projects");
+        navigate("/user/pauli.kemppainen/all_projects");
     }
 
     function handleProfileClick(){
-        navigate("profile");
+        navigate("/user/pauli.kemppainen/profile");
     }
 
     function handleHomeClick(){
-        navigate("/");
+        navigate("/user/pauli.kemppainen/");
     }
 
         return (

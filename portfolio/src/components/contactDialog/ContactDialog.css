@@ -9,6 +9,20 @@
     margin-top: 10px;
   }
 
+  #Etunimi, #Sukunimi, #Email, #Viesti{
+    width: 300px;
+  }
+
+  #textDiv_contact{
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  #text_contact{
+    color: red;
+    font-weight: 700;
+  }
+
   #border_outline{
     border: 4px solid black;
   }
@@ -37,9 +51,11 @@
 
   #button_close{
     margin-right: 30px;
+    cursor: pointer;
   }
   #button_send{
     margin-right: 80px;
+    cursor: pointer;
   }
 
   #icon_close{
@@ -49,3 +65,28 @@
   #icon_send{
     margin-top: 2px;
   }
+
+  @media only screen and (max-width: 650px){ 
+    #Etunimi, #Sukunimi, #Email, #Viesti{
+      width: 180px;
+    }
+    #textDiv_contact{
+      width: 180px;
+      margin-left: 30px;
+    }
+
+    #buttonDiv{
+      float:left;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+  
+    #button_close{
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    #button_send{
+      margin-right: 33px;
+      cursor: pointer;
+    }
+    }

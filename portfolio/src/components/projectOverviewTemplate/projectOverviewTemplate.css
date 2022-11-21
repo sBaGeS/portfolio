@@ -33,6 +33,7 @@
 
   .project_title{
     color: black;
+    cursor: pointer;
   }
 
   .githubButton{
@@ -44,6 +45,11 @@
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.projectButton{
+  cursor: pointer;
 }
 
   @media only screen and (min-width: 1350px) and (max-width: 1600px){
@@ -104,12 +110,12 @@
   @media only screen and (max-width: 650px){  
     #templateGrid{
         display: grid;
-        width: 91.5%;
-        height: 1530px;
+        width: 88%;
+        height: 1850px;
         grid-template-columns: 1fr;
       }
       .grid_item{
-        height: 450px;
+        height: 540px;
       }
       .projectPhoto{
         height: 55%;

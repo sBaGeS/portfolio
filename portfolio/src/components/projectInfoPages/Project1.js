@@ -110,9 +110,7 @@ export default function Project1() {
              tarkoitettu sivuston hallintaan ja jonka voi lisätä mille tahansa käyttäjälle. Käyttäjällä jolle on annettu
              admin rooli on edellä mainittujen toiminnallisuuksien lisäksi paljon lisätoiminnallisuuksia joista tärkeimmät
              ovat käyttäjien tietojen, mökkien ja varausten hakeminen, muokkaaminen ja poistaminen. Tämän lisäksi adminit voivat
-             lisätä, muokata ja poistaa lisäpalveluita ja hallita käyttäjien laskutusta. Lasku lähtee automaattisesti käyttäjän
-             sähköpostiin varauksen yhteydessä ja adminit näkevät jokaisen laskun tilan onko se maksettu vai ei ja he voivat
-             tarvittaessa generoida laskusta pdf version.<br/><br/>Tämä projekti on toteutettu mahdollisimman tietoturvalliseksi.
+             lisätä, muokata ja poistaa lisäpalveluita ja hallita käyttäjien laskutusta.<br/><br/>Tämä projekti on toteutettu mahdollisimman tietoturvalliseksi.
              Ainakin seuraavat asiat on huomioitu sivuston tietoturvallisuudessa. Backendi on toteutettu niin että käyttäjillä
              on pääsy vain heille tarkoitettuihin tietoihin ja metodeihin. Tämä pätee kaikkien tietojen lisäämiseen, muokkaamiseen
              poistamiseen ja hakemiseen. Ainoastaan admin roolin omaavia käyttäjiä ei ole rajoitettu mitenkään. Sama pätee myös 
@@ -155,7 +153,7 @@ export default function Project1() {
 
              </div>
 
-             <div className='project_child bottom'>
+             <div className='project_child'>
              <div className='title_div'>
              <h2 className='title'>Ongelmat ja ratkaisut</h2><br/><br/>
              </div>
@@ -167,6 +165,13 @@ export default function Project1() {
                 opettelemaan itse ihan alusta asti sillä se oli minulle ihan uutta asiaa tämän projektin tekohetkellä. Kokemusongelmien ja kaikkien muidenkin ongelmien yli 
                 pääsemiseen käytin apuna paljon youtube tutoriaaleja sekä asioiden googlettamista.
              </a>
+             </div>
+
+             <div className='project_child bottom'>
+             <div className='title_div'>
+             <h2 className='title'>Videoesittely</h2><br/><br/>
+             </div>
+             <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/FkDc7BJ2On4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
              </div>
 
             </div>

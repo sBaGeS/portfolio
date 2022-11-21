@@ -59,7 +59,7 @@ export default function Project2() {
              ylhäällä nappuloita joista saa nuo muut ikkunat aukaistua, startattua ja stopattua botin sekä poistuttua botista
              sulkemalla se kokonaan. State kohdassa näkyy botin tämänhetkinen tila eli onko se päällä vai stopattuna. Logs kohdan
              alla näkyy mitä botti on milloinkin tehnyt ja tasks kohdan alla näkyy botille annettu rakennusjono. Oikeanpuolimmaiseen
-             laatikkoon tulee käyttäjän tiedot että botti osaa toimia. Useragent laatikkoon copypastetaan käyttäjän jonkun muun
+             ikkunaan tulee käyttäjän tiedot että botti osaa toimia. Useragent laatikkoon copypastetaan käyttäjän jonkun muun
              selaimen useragent jotta botti vaikkuttaisi vähemmän bottimaiselta joka vähentää kiinnijäämisen riskiä sillä bottien
              käyttäminen on kielletty travianin terms of servicessä. Server kohtaan tulee serverin sisäänkirjautumis-sivun url osoite.
              Username ja Password kentät ovat itsestäänselviä. Farmlists kohtaan farmilistojen numerot jotta botti osaa lähettää ne.
